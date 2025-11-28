@@ -6,17 +6,17 @@ const team = [
   {
     name: "Helena Jacklin",
     role: "Senior Stylist",
-    image: "https://picsum.photos/seed/person1/400/500"
+    image: "/alice-4.jfif"
   },
   {
     name: "Hashall Gibbs",
     role: "Color Specialist",
-    image: "https://picsum.photos/seed/person2/400/500"
+    image: "/alice-5.jfif"
   },
   {
     name: "Marlon Brando",
     role: "Texture Expert",
-    image: "https://picsum.photos/seed/person5/400/500"
+    image: "/alice-6.jfif"
   }
 ];
 

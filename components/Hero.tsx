@@ -10,10 +10,10 @@ const Hero: React.FC = () => {
         <div className="max-w-4xl mx-auto mb-16 relative">
             {/* Decoration Images - Absolute positioned relative to text container for responsiveness */}
             <div className="hidden lg:block absolute -top-12 -left-32 w-48 h-64 overflow-hidden rounded-sm shadow-xl transform -rotate-6 transition-transform hover:rotate-0 duration-500">
-               <img src="https://picsum.photos/seed/hair1/300/400" alt="Beautiful hair model" className="w-full h-full object-cover" />
+               <img src="/alice-1.jfif" alt="Beautiful hair model" className="w-full h-full object-cover" />
             </div>
             <div className="hidden lg:block absolute -bottom-8 -right-24 w-56 h-72 overflow-hidden rounded-sm shadow-xl transform rotate-6 transition-transform hover:rotate-0 duration-500 z-[-1]">
-               <img src="https://picsum.photos/seed/hair2/300/400" alt="Salon interior" className="w-full h-full object-cover" />
+               <img src="/alice-2.jfif" alt="Salon interior" className="w-full h-full object-cover" />
             </div>
 
             <h1 className="font-serif text-6xl md:text-8xl leading-[1.1] text-charcoal mb-8 animate-fade-in">
@@ -33,7 +33,7 @@ const Hero: React.FC = () => {
 
         {/* Mobile Image (Visible only on small screens) */}
         <div className="lg:hidden mt-8 w-full max-w-sm mx-auto overflow-hidden rounded-sm shadow-lg">
-          <img src="https://picsum.photos/seed/hair3/600/400" alt="Salon work" className="w-full h-full object-cover" />
+          <img src="/alice-3.jfif" alt="Salon work" className="w-full h-full object-cover" />
         </div>
       </div>
     </section>

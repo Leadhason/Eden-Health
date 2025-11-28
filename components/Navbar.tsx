@@ -30,7 +30,7 @@ const Navbar: React.FC = () => {
           {/* Left: Contact Info */}
           <div className="hidden lg:flex items-center gap-2 text-charcoal/80 font-sans text-sm tracking-wide">
             <Phone size={16} />
-            <span>Call: (+880) 24569 5526</span>
+            <span>Call: +233 54 528 6220</span>
           </div>
 
           {/* Center: Logo */}
@@ -81,7 +81,7 @@ const Navbar: React.FC = () => {
             
             <div className="flex flex-col gap-6 mt-2">
               <span className="flex items-center justify-center gap-2 text-xl font-serif text-charcoal/80">
-                <Phone size={24}/> (+880) 24569 5526
+                <Phone size={24}/> +233 54 528 6220
               </span>
               <Button className="w-full justify-center" onClick={() => setMobileMenuOpen(false)}>Book Now</Button>
             </div>

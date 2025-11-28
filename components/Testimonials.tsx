@@ -6,19 +6,19 @@ const testimonials = [
   {
     name: "Cameron Williamson",
     role: "Regular Client",
-    image: "https://picsum.photos/seed/t1/100/100",
+    image: "/alice-1.jfif",
     quote: "I couldn't be happier with my experience at Eden. From consultation to aftercare, everything was seamless, and I feel amazing. Amazing environment!"
   },
   {
     name: "Savannah Nguyen",
     role: "Bridal Client",
-    image: "https://picsum.photos/seed/t2/100/100",
+    image: "/alice-2.jfif",
     quote: "From the first consultation to my final results, Eden made the entire process easy and enjoyable. I'm beyond happy with my transformation."
   },
   {
     name: "Darlene Robertson",
     role: "Color Client",
-    image: "https://picsum.photos/seed/t3/100/100",
+    image: "/alice-3.jfif",
     quote: "Eden is hands down the best in the business. Their expertise and care made all the difference, and I'm so happy with the results. Best of the best!"
   }
 ];

@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #f9f7f2;
+  color: #2d2424;
+  font-family: 'Lato', sans-serif;
+}
+
+/* Custom scrollbar for a cleaner look */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #d1bfa7;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #515E33;
+}
