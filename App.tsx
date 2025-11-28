@@ -5,6 +5,7 @@ import Hero from './components/Hero';
 import Marquee from './components/Marquee';
 import About from './components/About';
 import Features from './components/Features';
+import Services from './components/Services';
 import Process from './components/Process';
 import Team from './components/Team';
 import Gallery from './components/Gallery';
@@ -23,6 +24,7 @@ function App() {
         <Marquee />
         <About />
         <Features />
+        <Services />
         <Process />
         <Team />
         <Gallery />
